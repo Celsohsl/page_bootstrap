@@ -7,6 +7,11 @@ body {
     background-color:#6B9BDF;
 }
 
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: white;
+}
+
 .quemsomos {
     background-color:#949393;
     color: white;
@@ -25,6 +30,7 @@ body {
 }
 
 .bg-footer {
-    background-color: black;
+    padding-top: 40px;
+    background-color: #212529;
     color: brown;
  }
